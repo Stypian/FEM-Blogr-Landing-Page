@@ -71,7 +71,7 @@
     }
 
     /********************Animation classes and keyframes*********************/
-    /*.blogLan__ani-text {
+    .blogLan__ani-text {
       margin-left: -20%;
       opacity: 0;
     }
@@ -119,7 +119,7 @@
       100% {
         margin-left: 0;
       }
-    }*/
+    }
 
     /****************************hero section**********************************/
     .blogLan__hero {
