@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
+  <script src="scripts.js" defer></script>
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  <main class="blogLan__bg" role="main" aria-label="Main content area for blogr landing page">
+
+    <!-------------------hero section------------------------------->
+    <section class="blogLan__hero" role="region" aria-label="blogr landing page her section">
+      <nav class="blogLan__mobile-nav">
+          <ul class="blogLan__mobile-nav-ul">
+            <li class="blogLan__mobile-nav-li">
+              <a class="blogLan__mobile-drop-link" href="#" aria-haspopup="true" aria-expanded="false" id="mobile-product-link">Product <img class="blogLan__mobile-arrow" src="images/icon-arrow-mobile.svg"/></a>
+              <div class="blogLan__mobile-drop" aria-labelledby="mobile-product-link">
+                <a class="blogLan__mobile-link" href="">Overview</a>
+                <a class="blogLan__mobile-link" href="">Pricing</a>
+                <a class="blogLan__mobile-link" href="">Marketplace</a>
+                <a class="blogLan__mobile-link" href="">Features</a>
+                <a class="blogLan__mobile-link" href="">Integrations</a>
+              </div>
+            </li>
+            <li class="blogLan__mobile-nav-li">
+              <a class="blogLan__mobile-drop-link" href="#" aria-haspopup="true" aria-expanded="false" id="mobile-company-link">Company <img class="blogLan__mobile-arrow" src="images/icon-arrow-mobile.svg"/></a>
+              <div class="blogLan__mobile-drop" aria-labelledby="mobile-company-link">
+                <a class="blogLan__mobile-link" href="">About</a>
+                <a class="blogLan__mobile-link" href="">Team</a>
+                <a class="blogLan__mobile-link" href="">Blog</a>
+                <a class="blogLan__mobile-link" href="">Careers</a>
+              </div>
+            </li>
+            <li class="blogLan__mobile-nav-li">
+              <a class="blogLan__mobile-drop-link" href="#" aria-haspopup="true" aria-expanded="false" id="mobile-connect-link">Connect <img class="blogLan__mobile-arrow" src="images/icon-arrow-mobile.svg"/></a>
+              <div class="blogLan__mobile-drop" aria-labelledby="mobile-connect-link">
+                <a class="blogLan__mobile-link" href="">Contact</a>
+                <a class="blogLan__mobile-link" href="">Newsletter</a>
+                <a class="blogLan__mobile-link" href="">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
+          <div class="blogLan__mobile-bottom">
+            <div class="blogLan__bottom-inner">
+              <a class="blogLan__mobile-drop-link blogLan__mobile-drop-link--login" href="">Login</a>
+              <a class="blogLan__mobile-signup">Sign Up</a>
+            </div>
+          </div>
+      </nav>
+      <picture>
+        <source media="(max-width: 800px)" srcset="images/bg-pattern-intro-mobile.svg"/>
+        <source media="(min-width: 801px)" srcset="images/bg-pattern-intro-desktop.svg"/>
+        <img class="blogLan__hero-bg" src="images/bg-pattern-intro-desktop.svg" alt=""/>
+      </picture>
+      <header class="blogLan__header">
+        <img class="blogLan__logo" src="images/logo.svg" alt="Blogr logo"/>
+        <nav class="blogLan__nav-left">
+          <ul class="blogLan__nav-ul">
+            <li class="blogLan__nav-li" tabindex="1">
+              <a class="blogLan__nav-li blogLan__drop-link" aria-haspopup="true" aria-expanded="false" id="product-link">Product <img class=" blogLan__arrow blogLan__arrow--light" src="images/icon-arrow-light.svg" alt=""/></a>
+              <div class="blogLan__drop-menu" aria-labelledby="product-link">
+                <a class="blogLan__nav-drop" href="">Overview</a>
+                <a class="blogLan__nav-drop" href="">pricing</a>
+                <a class="blogLan__nav-drop" href="">Marketplace</a>
+                <a class="blogLan__nav-drop" href="">Features</a>
+                <a class="blogLan__nav-drop" href="">Integrations</a>
+              </div>
+            </li>
+            <li class="blogLan__nav-li" tabindex="2">
+              <a class="blogLan__nav-li blogLan__drop-link" aria-haspopup="true" aria-expanded="false" id="company-link">Company <img class=" blogLan__arrow blogLan__arrow--light" src="images/icon-arrow-light.svg" alt=""/></a>
+              <div class="blogLan__drop-menu" aria-labelledby="company-link">
+                <a class="blogLan__nav-drop" href="">About</a>
+                <a class="blogLan__nav-drop" href="">Team</a>
+                <a class="blogLan__nav-drop" href="">Blog</a>
+                <a class="blogLan__nav-drop" href="">Careers</a>
+              </div>
+            </li>
+            <li class="blogLan__nav-li" tabindex="3">
+              <a class="blogLan__nav-li blogLan__drop-link" aria-haspopup="true" aria-expanded="false" id="connect-link">Connect <img class=" blogLan__arrow blogLan__arrow--light" src="images/icon-arrow-light.svg" alt=""/></a>
+              <div class="blogLan__drop-menu" aria-labelledby="connect-link">
+                <a class="blogLan__nav-drop" href="">Contact</a>
+                <a class="blogLan__nav-drop" href="">Newsletter</a>
+                <a class="blogLan__nav-drop" href="">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <nav class="blogLan__nav-right">
+          <img class="blogLan__menu-icon" src="images/icon-hamburger.svg" alt="Click for more links"/>
+            <a class="blogLan__nav-li blogLan__nav-right-link blogLan__nav-li--login" href="#" tabindex="4">Login</a>
+            <a class="blogLan__nav-li blogLan__nav-right-link blogLan__signup" tabindex="5">Sign Up</a>
+        </nav>
+      </header>
+      <h1 class="blogLan__h1">A modern publishing platform</h1>
+      <p class="blogLan__hero-p">Grow your audience and build your online brand</p>
+      <div class="blogLan__button-wrap">
+        <a class=" blogLan__nav-li blogLan__signup blogLan__signup--start">Start for Free</a>
+        <a class="blogLan__nav-li blogLan__signup blogLan__signup--learn">Learn More</a>
+      </div>
+    </section>
+
+    <!--------------------designed for the future section----------------------------------->
+    <section class="blogLan__designed" aria-labelledby="designed-heading">
+      <h2 id="designed-heading" class="blogLan__h2 blogLan__h2--designed">Designed for the future</h2>
+      <div class="blogLan__designed-wrap">
+        <div class="blogLan__designed-text-half">
+          <div class="blogLan__text-inner blogLan__ani-bot">
+                <h3 class="blogLan__h3 blogLan__h3--designed">Introducing an extensible editor</h3>
+              <p class="blogLan__p blogLan__p--designed blogLan__p--1">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                change the looks of a blog.</p>
+              <h3 class="blogLan__h3 blogLan__h3--designed">Robust content management</h3>
+              <p class="blogLan__p blogLan__p--designed">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+                by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          </div>
+        </div>
+        <div class="blogLan__designed-img-half">
+          <picture>
+            <source media="(max-width: 800px)" srcset="images/illustration-editor-mobile.svg"/>
+            <source media="(min-width: 801px)" srcset="images/illustration-editor-desktop.svg"/>
+            <img class="blogLan__designed-img blogLan__ani-op" src="images/illustration-editor-desktop.svg" alt="Blogr editor"/>
+          </picture>
+        </div>
+      </div>
+    </section>
+    
+    <!-------------------------------------State of the art section------------------------------------->
+    <section class="blogLan__state" aria-labelledby="state-heading">
+      <div class="blogLan__state-left">
+        <img class="blogLan__state-img blogLan__ani-op" src="images/illustration-phones.svg" alt="phones"/>
+      </div>
+      <div class="blogLan__state-right">
+        <div class="blogLan__text-inner blogLan__text-inner--state blogLan__ani-bot">
+          <h2 id="state-heading" class="blogLan__h2 blogLan__h2--state">State of the Art Infrastructure</h2>
+          <p class="blogLan__p blogLan__p--state">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------Free open simple section-------------------------------->
+    <section class="blogLan__free" aria-labelledby="free-heading1 freeheading2">
+      <div class="blogLan__free-left">
+        <picture>
+          <source media="(max-width: 800px)" srcset="images/illustration-laptop-mobile.svg"/>
+          <source media="(min-width: 801px)" srcset="images/illustration-laptop-desktop.svg"/>
+          <img class="blogLan__free-img blogLan__ani-op" src="images/illustration-laptop-desktop.svg" alt="Free open simple"/>
+        </picture>
+      </div>
+      <div class="blogLan__free-right">
+        <div class="blogLan__text-inner blogLan__text-inner--simple blogLan__ani-bot">
+            <h3 id="free-heading1" class="blogLan__h3 blogLan__h3--free">Free, open, simple</h3>
+            <p class="blogLan__p blogLan__p--free blogLan__p--1">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+            <h3 id="free-heading2" class="blogLan__h3 blogLan__h3--free">Powerful tooling</h3>
+            <p class="blogLan__p blogLan__p--free"> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.</p>
+        </div>
+      </div>
+    </section>
+    <!-------------------------Footer section------------------------------------->
+    <footer class="blogLan__footer">
+      <img class="blogLan__logo blogLan__logo--footer" src="images/logo.svg" alt="Blogr logo"/>
+      <div class="blogLan__footer-sect" aria-labelledby="product-heading">
+        <h4 id="product-heading" class="blogLan__p blogLan__p--h4">Product</h4>
+        <a class="blogLan__p blogLan__p--fa" href="#">Overview</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Pricing</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Marketplace</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Features</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Integrations</a>
+      </div>
+      <div class="blogLan__footer-sect" aria-labelledby="company-heading">
+        <h4 id="company-heading" class="blogLan__p blogLan__p--h4">Company</h4>
+        <a class="blogLan__p blogLan__p--fa" href="#">About</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Team</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Blog</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Careers</a>
+      </div>
+      <div class="blogLan__footer-sect" aria-labelledby="connect-heading">
+        <h4 id="connect-heading" class="blogLan__p blogLan__p--h4">Connect</h4>
+        <a class="blogLan__p blogLan__p--fa" href="#">Contact</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">Newsletter</a>
+        <a class="blogLan__p blogLan__p--fa" href="#">LinkedIn</a>
+      </div>
+    </footer>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" tabindex="-1">Frontend Mentor</a>. 
+    Coded by <a href="#" tabindex="-1">RonL</a>.
+  </div>
+</body>
+</html>
